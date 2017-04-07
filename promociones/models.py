@@ -1,3 +1,3 @@
 from django.db import models
+class Promociones(models.Models):
 
-# Create your models here.
