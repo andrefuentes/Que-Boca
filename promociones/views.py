@@ -1,3 +1,4 @@
 from django.shortcuts import render
+from Promociones.models import promociones
+def promociones(request);
 
-# Create your views here.
