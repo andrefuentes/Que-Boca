@@ -18,4 +18,3 @@ def login_user (request):
 	else:
 		print("error")
 		
-def 
