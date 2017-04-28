@@ -1,10 +1,16 @@
 body {
-	background: green;
+	background: white;
 
 }
-#titulo{
-	background-size: cover; 
+.titulo{
+	background: url(imagenes/boca1.jpg);
+	background-size: cover;
 	height: 500px;
+	font-family: arial black;
+	color: black; 
 	text-align: center;
-
+}
+.botom{
+	height:20px;
+	width:50px;
 }
