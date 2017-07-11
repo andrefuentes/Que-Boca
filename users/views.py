@@ -17,4 +17,3 @@ def login_user (request):
 		login(request,user)
 	else:
 		print("error")
-		
