@@ -1,9 +1,9 @@
 from django import forms
-from users.models import Users
+from users.models import Perfil
 
-class UsersForm(forms.ModelsForm):
+class UsersForm(forms.ModelForm):
 	class Meta:
-		models=Users
+		models= Perfil
 		fields=[
 		'user',
 		'telefono',

@@ -16,18 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
+from users import views as login_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login/$', auth_views.login, name='login'),
-    url(
-    	r'^	User/$',
-    	users_views.lista_user,
-    	name='lista_users'
-    	),
-	url(
-   		r'^login/$',
-   		users_views.lista_users,
-   		name='lista_login'),
-
+	url(r'^logins/$', login_views.login_user, name='lista_login'),
+    
 ]
