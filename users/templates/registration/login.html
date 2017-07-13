@@ -10,9 +10,11 @@
 <div class="container-fluid">
 <div class = "superior">
 	<div class = "nombre"><strong>Que Boca</strong></div>
-	<form method="POST" class="datos">{{form}}
+	<form method="POST" class="datos">
+		{%csrf_token%}
+		{{form}}
+		<button type= "submit" class = "button1">Acceder</button>
 	</form>
-	<button type= "submit" class = "button1">Acceder</button>
 </div>
 <div class = "titulo">
 	<h1>Sobre nosotros...</h1>
